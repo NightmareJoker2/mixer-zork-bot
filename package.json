@@ -1,0 +1,37 @@
+{
+  "name": "mixer-zork-bot",
+  "version": "1.0.0",
+  "description": "Play the text-based adventure game ZORK from Mixer chat.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NightmareJoker2/mixer-zork-bot.git"
+  },
+  "keywords": [
+    "mixer",
+    "beam",
+    "zork",
+    "bot",
+    "dungeon",
+    "adventure",
+    "text-based",
+    "game"
+  ],
+  "author": "NightmareJoker2",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/NightmareJoker2/mixer-zork-bot/issues"
+  },
+  "homepage": "https://github.com/NightmareJoker2/mixer-zork-bot#readme",
+  "dependencies": {
+    "beam-client-node": "^1.1.0",
+    "carina": "^0.11.0",
+    "config": "^1.30.0",
+    "ws": "^5.1.1",
+    "zorkmid": "^1.0.2"
+  }
+}

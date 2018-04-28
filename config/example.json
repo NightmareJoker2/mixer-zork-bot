@@ -1,0 +1,10 @@
+{
+    "Channels": [
+        0,
+        "FTL-TestStream1"
+    ],
+    "Beam":
+    {
+        "key": "blablabla"
+    }
+}
