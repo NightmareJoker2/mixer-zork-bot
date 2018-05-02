@@ -147,6 +147,10 @@ function zorkCommand(commandText)
                     }
                     if (data.length > 0)
                     {
+                        if (data.length > 360)
+                        {
+                            data = data.substring(0, 359);
+                        }
                         BeamChatSocket.call('msg', [data])
                         .catch(error =>
                             {
