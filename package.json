@@ -30,7 +30,7 @@
   "dependencies": {
     "beam-client-node": "^1.1.0",
     "carina": "^0.11.0",
-    "config": "^1.30.0",
+    "config": "^1.31.0",
     "ws": "^5.1.1",
     "zorkmid": "^1.0.2"
   }
